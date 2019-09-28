@@ -19,5 +19,5 @@ if ($conn->query($sql) === TRUE) {
 }
 
 $conn->close();
-header("refresh:2; url=signin.htm");
+header("refresh:2; url=login.htm");
 ?>
