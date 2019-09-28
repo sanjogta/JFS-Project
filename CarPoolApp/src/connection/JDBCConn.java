@@ -12,8 +12,8 @@ public class JDBCConn {
 	  Class.forName("com.mysql.jdbc.Driver"); 
 	  
 	  //Step 2: Create a connection with Mysql.
-	  //Here the first String parameter is the database name, second String parameter is the username and last
-	  // one is the password.
+	  //Here the first String parameter has three parts: 1) API name 2)Database and 3)server followed by the database name,
+	  //second String parameter is the username and last one is the password.
 	  Connection con = DriverManager.getConnection("jdbc:mysql://localhost/my_first_schema","root","sanju123");
 	  System.out.println("Connection established successfully");
 	  
