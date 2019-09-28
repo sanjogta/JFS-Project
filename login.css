@@ -1,0 +1,17 @@
+input
+{
+ width: 200px;
+}
+form
+{
+ padding: 20px 30px 20px 30px;
+ width: 400px;
+ height: 150px;
+ border-style: solid;
+ border-image: url(border.png) 30 round;
+}
+img
+{
+ width:600px;
+ height:260px;
+}

@@ -1,0 +1,50 @@
+#head
+{
+ text-align:center;
+ font-size: 50px;
+ font-family: Book Antiqua;
+ font-style: italic;
+}
+body
+{
+ background-color: Lightblue;
+}
+form
+{
+ margin:  10px 220px 90px 230px;
+ border-style: ridge;
+ padding:25px 50px 10px 280px;
+ background-color: white;
+}
+label
+{
+ color: Orange;
+ width: 200px;
+ display: block; 
+ font-size: 20px;
+ /*width: 100px;*/
+}
+button
+{
+ width: 90px;
+ height: 30px;
+ text-align: center;
+ font-size: 18px;
+ color: red;
+
+}
+img
+{
+ width:300px;
+ height:200px;
+ //margin:5px 240px 10px 520px;
+}
+h3
+{
+ text-align: center;
+}
+input
+{
+ width:190px;
+ height: 20px;
+}

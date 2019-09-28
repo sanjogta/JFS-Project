@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+     <head>
+	<link rel="stylesheet" type = "text/css" href="register.css">
+	<h1 id=head>CAR POOLING SYSTEM</h1>
+        <title>Welcome to the Login/Registration Page</title>
+     </head>
+
+     <center><img src="pic1.jpg" alt=""></center>
+
+     <body>
+	   <h3>Registeration form :</h3>
+           <h3>Please fill in the following details carefully</h3>
+
+       <form action="insert.php" method="post">
+	 <div class="from-container">
+
+	    <label for="eid"><b>Employee Id  &nbsp;&nbsp;&nbsp;</b></label>
+            <input type="text" id="eid" placeholder="Enter Employee Id" name="eid" size=6 required><br><br>
+
+            <label for="name"><b>Name  &nbsp;&nbsp;&nbsp;</b></label>
+            <input type="text" id="name" placeholder="Enter Name" name="name" required><br><br>
+
+	    <label for="contact"><b>Contact Number</b></label>
+            <input type="text" id="contact" placeholder="Enter your contact number" name="contact" size=10 required><br><br>
+
+            <label for="psw"><b>Password &nbsp;&nbsp;&nbsp;</b></label>
+ 	    <input type="text" id=psw placeholder="Enter Password" name="psw" size=8 required><br><br>
+
+	    <label for="regdt"><b>Today's Date</b></label>          	
+	    <input type="date" name="regdt"><br><br> 
+
+	    <button id="reg" type="submit">Register</button><br><br>
+
+	        <div>
+		   Already have an account?
+                  <a href="login.htm" id="signin" >Sign-in</a><br><br>
+		</div>
+	 </div>
+       </form>
+
+      </body>
+</html>

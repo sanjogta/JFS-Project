@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" type = "text/css" href="login.css">
+<title></title>
+</head>
+<body>
+<center><img src="pic2.png" alt="car pool pic"></center>
+<center><h1>Sign into your account </h1></center>
+  <center><form>
+    <div class="mydiv">
+    <label for="user"><b>Admin or Customer?&nbsp;</b></label>
+    <input class="mydiv" list="users">
+     <datalist class="mydiv" id="users">
+       <option value="ADMIN">
+       <option value="CUSTOMER">
+     </datalist><br><br>
+
+    <label for="name"><b> Username:&nbsp</b></label>
+    <input type="text" id="name" placeholder="Your Username" name="name" required><br><br>
+    <label for="psw"><b>Password:&nbsp</b></label>
+    <input type="text" id="psw" placeholder="Your Password" name="psw" size=8 required><br><br>
+    <button id="signin" type="submit">Sign in</button><br><br>
+    </div>
+  </form> 
+  </center>
+</body>
+</html>
